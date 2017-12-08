@@ -18,7 +18,7 @@ public abstract class AbstractCheck
   
   public void fail(String message, Object... arguments)
   {
-    message = MessageFormat.format(message, arguments);
-    thrower.throwNow(message);
+    String msg = MessageFormat.format(message, arguments);
+    thrower.throwNow(msg);
   }
 }
