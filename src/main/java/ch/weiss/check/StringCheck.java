@@ -5,7 +5,7 @@ package ch.weiss.check;
  * @author Reto Weiss
  * @since 0.0.1
  */
-class StringCheck extends AbstractObjectCheck<StringCheck, String>
+public class StringCheck extends AbstractObjectCheck<StringCheck, String>
 {
   StringCheck(String value, Thrower thrower)
   {
