@@ -1,4 +1,4 @@
-package ch.weiss.check;
+package ch.rweiss.check;
 
 /**
  * Checks values of different types. Splits to type specific checks.

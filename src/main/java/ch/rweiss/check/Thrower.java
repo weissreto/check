@@ -1,4 +1,4 @@
-package ch.weiss.check;
+package ch.rweiss.check;
 
 /**
  * Implementors throw a runtime exception

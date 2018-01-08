@@ -1,4 +1,4 @@
-package ch.weiss.check;
+package ch.rweiss.check;
 
 /**
  * Staring point of the Check framework

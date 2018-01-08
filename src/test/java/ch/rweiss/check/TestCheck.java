@@ -1,10 +1,13 @@
-package ch.weiss.check;
+package ch.rweiss.check;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import java.util.NoSuchElementException;
 
 import org.junit.jupiter.api.Test;
+
+import ch.rweiss.check.AbstractThrower;
+import ch.rweiss.check.Check;
 
 public class TestCheck
 {

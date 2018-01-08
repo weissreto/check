@@ -1,8 +1,10 @@
-package ch.weiss.check;
+package ch.rweiss.check;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import org.junit.jupiter.api.Test;
+
+import ch.rweiss.check.Check;
 
 public class TestIntCheck
 {
