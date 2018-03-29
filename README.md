@@ -1,4 +1,5 @@
-# check
+# check [![Build Status](https://travis-ci.org/weissreto/check.svg?branch=master)](https://travis-ci.org/weissreto/check)
+
 Checks preconditions (e.g. method parameter values) and generates nice error messages. 
 
 ## Example
