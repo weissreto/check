@@ -24,6 +24,14 @@ public class ValueCheck
     return new IntCheck(value, thrower);
   }
   
+  /**
+   * @since 0.3.0
+   */
+  public LongCheck withValue(long value)
+  {
+    return new LongCheck(value, thrower);
+  }
+  
   public StringCheck withValue(String value)
   {
     return new StringCheck(value, thrower);
